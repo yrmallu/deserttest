@@ -6,7 +6,7 @@ def fib(n)
   arr = []
   return 0 if n.zero?
   return 1 if n == 1
-  arr < i < j
+  arr = [i, j]
   n.times do 
     arr << i + j
     j = i + j
@@ -15,5 +15,5 @@ def fib(n)
   arr[4]
 end
 
-fib(4)
+ p fib(4)
 
